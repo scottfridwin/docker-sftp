@@ -12,7 +12,7 @@ env:
   # Version pattern: 5.2.<run_number>
   version: 5.2.${{ github.run_number }}
   # Your GHCR image path
-  imageRepository: ghcr.io/fridwin/sftp
+  imageRepository: ghcr.io/scottfridwin/sftp
 
 jobs:
   build:
